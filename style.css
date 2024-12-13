@@ -1,0 +1,176 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #7fd9f5;
+    color: black;
+    padding: 1rem 0;
+    text-align: center;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.navbar ul li{
+    margin: 0 15px;
+}
+.navbar ul li a{
+    color: gray;
+    text-decoration: none;
+    font-size: 18px;
+}
+.navbar ul li a:hover{
+    text-decoration: blink;
+    font-size: larger;
+    color: black;
+}
+main{
+    padding: 20px;
+}
+.uvod h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color:black;
+}
+.uvod h1:hover{
+    color:gray;
+    text-decoration:double;
+}
+.galerija{
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    gap: 20px;
+}
+.slika1{
+    background-color: #7fd9f5;
+    transition: transform 0.5s;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+.slika1:hover{
+    transform: scale(1.1);
+}
+.slika2{
+    background-color: #7fd9f5;
+    transition: transform 0.5s;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+.slika2:hover{
+    transform: scale(1.1);
+}
+.slika3{
+    background-color: #7fd9f5;
+    transition: transform 0.5s;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+.slika3:hover{
+    transform: scale(1.1);
+}
+.prvo{
+    background-color: #7fd9f5;
+    font-size: 15px;
+    margin: 25px;
+    font-family: 'sans-serif;', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.drugo{
+    background-color: #7fd9f5;
+    font-size: 15px;
+    margin: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.trece{
+    background-color:#7fd9f5;
+    font-size: 15px;
+    margin: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.projekat1{
+    background-color: white;
+    transition: transform 0.5s;
+    height: auto;
+    width: 100%;
+}
+.projekat1:hover{
+    transform: scale(1.1);
+}
+.projekat2{
+    background-color:#7fd9f5;
+    transition: transform 0.5s;
+    height: auto;
+    width: 100%;
+}
+.projekat2:hover{
+    transform: scale(1.1);
+}
+.projekat3{
+    background-color: white;
+    transition: transform 0.5s;
+    height: auto;
+    width: 100%;
+}
+.projekat3:hover{
+    transform: scale(1.1);
+}
+.projekat4{
+    background-color: #7fd9f5;
+    transition: transform 0.5s;
+    height: auto;
+    width: 100%;
+}
+.kontaktforma{
+    max-width: 600px;
+    margin: auto;
+}
+.kontaktforma form{
+    display: flex;
+    flex-direction: column;
+}
+.kontaktforma label{
+    margin-top: 10px;
+
+}
+.kontaktforma input{
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #7fd9f5;
+    border-radius: 5px;
+    background-color: white;
+}
+.kontaktforma textarea{
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #7fd9f5;
+    border-radius: 5px;
+    background-color: #7fd9f5;
+}
+.kontaktforma button{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #7fd9f5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.kontaktforma button:hover{
+    background-color: royalblue;
+}
+@media screen and(max-width:768px){
+    body{font-size: 16px;
+    margin:10px;
+}
+img{
+    display: block;
+}
+}
+
